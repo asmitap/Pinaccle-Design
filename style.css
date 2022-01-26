@@ -1,0 +1,771 @@
+.navbar{
+	border-bottom:1px solid #a233f7;
+	height:80px;
+	padding:15px;
+}
+.navbar-brand{
+	font-family: 'Poor Story', cursive;
+	font-family: 'Aladin', cursive;
+	font-size: 20px;
+	color:black;
+}
+.icon-bar{
+	background-color:white;
+}
+#home{
+	height:500px;
+	width:100%;
+	background-color:#732ca9; 
+	margin-top: -20px;
+}
+#home img{
+	width:100%;	
+}
+.clip-polygon {
+	clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 0% 100%);
+	background-color: white;
+	height:100%;
+	width:900px;
+}
+.homea{
+	float:right;
+	height:400px;
+	width:400px;
+	margin-top: -400px;
+	margin-right: 30px;
+	padding:20px;
+	font-size: 20px;
+}
+.homea h3{
+	color:white;
+}
+.homea p{
+	color:grey;
+}
+.homea button{
+	border:1px solid black;
+	background-color: #732ca9;
+	height:50px;
+	width:150px;
+	border-radius: 20px;
+	color:white;
+}
+.homea button:hover{
+	background-color: white;
+	color:#732ca9;
+}
+
+
+#about{
+	
+}
+.imagea{
+	margin-left: 62px;
+	margin-top:92px;
+}
+.imageb{
+	    margin-left: 83px;
+    margin-top: -208px;
+}
+
+.aboutc{
+	width:80px;
+	height:3px;
+	background-color:#7839bd;
+	position:relative;
+	border-radius: 10px;
+}
+.aboutc::before{
+	content: '';
+    width: 3px;
+    height: 3px;
+    background-color:#7839bd;
+    position: absolute;
+    top: 0;
+    border-radius: 23px;
+    right: -18px;
+}
+.aboutc::after{
+    content: '';
+    width: 3px;
+    height: 3px;
+    background-color:#7839bd;
+    position: absolute;
+    top: 0;
+    border-radius: 23px;
+    right: -9px;
+}
+.abouta{
+	font-size: 20px;
+}
+.aboutb button{
+	border-radius: 20px;
+	height:40px;
+	width:150px;
+	background-color: white;
+	border:1px solid grey;
+}
+.aboutb button:hover{
+	color:black;
+	background-color: #7839bd;
+	color:white;
+}
+
+#product{
+    margin-top: 30px;
+    padding:70px;
+}
+#product h3{
+    text-align: center;
+}
+
+.productc{
+    content:'';
+    width:80px;
+    height:5px;
+    background-color: #7839bd;
+    position:relative;
+    border-radius: 15px;
+    margin-left: 500px;
+}
+
+.productc::before{
+    content: '';
+    width: 3px;
+    height: 3px;
+    background-color:#7839bd;
+    position: absolute;
+    top: 0;
+    border-radius: 23px;
+    left: -9px;
+}
+.productc::after{
+    content:'';
+    width:3px;
+    height: 3px;
+    background-color: #7839bd;
+    position:absolute;
+    top:0;
+    border-radius: 23px;
+    right:-9px;
+}
+#product button{
+    height:40px;
+    width:150px;
+    border-radius: 30px;
+    border:1px solid black;
+    background-color: white;
+}
+#product button:hover{
+    background-color:  #7839bd;
+    color:white;
+}
+.producta{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+#product img{
+    padding:0px;
+}
+#product :nth-child(1) { order: 1; }
+#product :nth-child(2) { order: 2; }
+#product :nth-child(3) { order: 3; }
+#product :nth-child(4) { order: 4; }
+#product :nth-child(5) { order: 5; }
+#product :nth-child(6) { order: 6; }
+
+
+
+
+#offer img{
+	height:220px;
+	width:350px;
+}
+.offerc{
+	content:'';
+	width:80px;
+	height:3px;
+	background-color: #7839bd;
+	position:relative;
+	border-radius: 15px;
+}
+.offerc::before{
+	content: '';
+    width: 3px;
+    height: 3px;
+    background-color:#7839bd;
+    position: absolute;
+    top: 0;
+    border-radius: 23px;
+    right: -18px;
+}
+.offerc::after{
+	content:'';
+	width:3px;
+	height: 3px;
+	background-color: #7839bd;
+	position:absolute;
+	top:0;
+	border-radius: 23px;
+	right:-9px;
+}
+.offera{
+	margin-top: -30px;
+	text-align: center;
+	font-size: 20px;
+	color:white;
+}
+#offer button{
+	border:1px solid black;
+	background-color: white;
+	border-radius: 20px;
+	height:35px;
+	width:130px;
+	margin-left: 500px;
+}
+#offer button:hover{
+	background-color:#7839bd;
+	color:white;
+}
+#enquiry{
+	text-align: center;
+	background-color: #f3eded;
+	color:black;
+	padding:100px;
+}
+.enquiryc{
+	content:'';
+	width:80px;
+	height:3px;
+	background-color: #7839bd;
+	position:relative;
+	border-radius: 15px;
+	margin-left: 500px;
+}
+.enquiryc::before{
+	content: '';
+    width: 3px;
+    height: 3px;
+    background-color:#7839bd;
+    position: absolute;
+    top: 0;
+    border-radius: 23px;
+    left: -9px;
+}
+.enquiryc::after{
+	content:'';
+	width:3px;
+	height: 3px;
+	background-color: #7839bd;
+	position:absolute;
+	top:0;
+	border-radius: 23px;
+	right:-9px;
+}
+#enquiry img{
+	height:100px;
+	width:100px;
+	border-radius: 50%;
+}
+#enquiry span{
+	color:blue;
+}
+.enquirya{
+	background-color: white;
+	margin-right:30px;
+	width:360px;
+	padding:40px;
+}
+#enquiry p{
+	color:grey;
+}
+#contact img{
+	width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+.contacta{
+	position:relative;
+	top:120px;
+	margin-top: -120px;
+}
+.contactb{
+	color:white;
+	font-size: 33px;
+	text-shadow: 2px 1px white;
+}
+.contactb button{
+	background-color: white;
+	border:1px solid black;
+	width:150px;
+	height:40px;
+	border-radius: 30px;
+	font-size: 15px;
+	color:black;
+}
+.contactb button:hover{
+	color:white;
+	background-color:#7839bd; 
+}
+.footer{
+	text-align: center;
+	height:200px;
+	background-color:#0b0a50;
+	padding-top: 2px;
+	color:white;
+}
+.footer a{
+	color:white;
+	font-size: 18px;
+	padding:10px;
+}
+.footer span{
+	font-size: 20px;
+	padding:10px;
+}
+@media only screen and (max-width: 1260px){
+	#home{
+		height:900px;
+	}
+	.clip-polygon{
+		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+		width:100%;
+		height:550px;
+	}
+	.homea{
+    	font-size: 24px;
+    	margin:-30px;
+    	margin-right:50px;
+    	padding:100px;
+    	height:200px;
+    	width:100%;
+    }
+    .enquirya img{
+    	margin-left: 90px;
+    }
+    .contactb{
+    	margin-top: -30px;
+    	font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+	
+	#home{
+		height:700px;
+	}
+	.clip-polygon{
+		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+		width:100%;
+		height:400px;
+	}
+	.homea{
+   		margin-top: -70px;
+    }
+    .aboutb button{
+    	margin-top: -20px;
+    } 
+    .pro {
+  		padding-left:30px;
+    }
+    .prod button{
+    	margin-bottom: 30px;
+    }
+    #offer .row{
+    	margin-left: 140px;
+    }
+    #offer button{
+    	margin-left: 250px;
+    }
+    #enquiry h3{
+    	margin-left: -350px;
+    }
+    .enquiryc{
+    	margin-left: 10px;
+    }
+    #enquiry .row{
+    	margin-left: 150px;
+    }
+    .contactb{
+    	margin-top: -70px;
+    	text-align: center;
+    }
+    .contactb button{
+    	margin-top: 10px;
+    }
+    .footer h3{
+    	font-size: 30px;
+    }
+    .footer a{
+    	font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+	#home {
+		height:450px;
+	}
+	#home img{
+		height:200px;
+		width:100%;
+	}
+	.clip-polygon{
+		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+		width:100%;
+		height:200px;
+	}
+	.homea{
+    	font-size: 16px;
+    	margin:6px;
+    	margin-right:50px;
+    	padding-top:0px;
+    	height:265px;
+    }
+    #about{
+    	padding:60px;
+    }
+    #about .image{
+    	margin-left:130px;
+    	margin-bottom: 30px;
+    }
+    .abouta{
+    	padding:30px;
+    	text-align: center;
+    }
+    .aboutb button{
+    	margin-left: 250px;
+    	margin-top: -40px;
+    }
+    #product{
+    	margin-left: 50px;
+    }
+    .pro{
+    	margin-left: -60px;
+    }
+    .prod button{
+    	margin-bottom: 30px;
+    }
+    #offer{
+    	padding:50px;
+    }
+    #offer button{
+    	margin-left: 30px;
+    }
+    #offer .row{
+    	margin-left:150px;
+    }
+    #offer button{
+    	margin-left: 250px;
+    }
+
+    #enquiry h3{
+    	margin-left: -250px;
+    }
+    .enquiryc{
+    	margin-left: -20px;
+    }
+    #enquiry .row{
+    	margin-left: 70px;
+    }
+    .enquirya img{
+    	margin-left: 80px;
+    }
+    .contactb{
+    	margin-top: -80px;
+    	text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+    .clip-polygon{
+	    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+		width:100%;
+		height:180px;
+    }
+    .homea h3{
+    	font-size: 25px;
+    }
+    .homea{
+    	text-align: center;
+    	font-size: 18px;
+    	margin-right: 0px;
+    	height:265px;
+    }
+    .homea button{
+    	height:40px;
+    	width:150px;
+    }
+    .homea button:hover{
+    	background-color: white;
+    	color:black;
+    }
+    #about{
+    	padding:30px;
+    	text-align: center;
+    }
+    #about h3{
+    	margin-right: 280px;
+
+    }
+    #about .image{
+    	margin-left:35px;
+    	margin-bottom: 30px;
+    }
+    #about button{
+    	margin-left: 0px;
+    }
+    #product{
+    	text-align: center;
+    }
+    #product h3{
+
+    	margin-right: 280px;
+    }
+    #product img{
+    	margin-left: -35px;
+    }
+    .pro h1{
+    	margin-right: 50px;
+    }
+    .pro p{
+    	text-align: center;
+    }
+    .pro button{
+    	margin-right: 0px;
+    	margin-top: -30px;
+    }
+    .prod p{
+    	text-align: center;
+    }
+    .prod button{
+    	margin-bottom: 30px;
+    }
+    #offer .row{
+		margin-left:30PX;  	
+    }
+    #offer button{
+    	margin-left:130px;
+    }
+    #enquiry h3{
+    	margin-left: -140px;
+    }
+    .enquiryc{
+    	margin-left: -60px;
+    }
+    #enquiry .row{
+    	margin-left: -40px;
+
+    	    }
+    #enquiry img{
+    	margin-left: 90px;
+    }
+    .contactb{
+    	margin-top: -50px;
+    }
+    .footer a{
+    	font-size: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width:411px){
+.homea{
+	font-size: 15px;
+	padding:30px;
+}
+.homea p{
+	color:#cec8c8;
+}
+.imagea{
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+.imageb{
+	margin-left: 15px;
+	padding:30px;
+	margin-top: -240px;
+}
+#about h3{
+	width:300px;
+}
+.aboutc{
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+.abouta{
+	padding:15px;
+}
+#offer button{
+	margin-left: 70px;
+}
+#enquiry h3{
+	width:500px;
+	margin-left: -160px;
+}
+#enquiry .row{
+	margin-left: -105px;
+}
+.enquirya{
+	margin:15px;
+}
+
+}
+
+
+
+@media only screen and (max-width:320px){
+	
+	.clip-polygon{
+		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+		background-color: white;
+		height:200px;
+		width:100%;
+	}
+	.homea{
+		text-align: center;
+		padding:20px;
+    	font-size: 12px;
+    	margin-top:-7px;
+    	padding-left:7px;
+    }
+    .homea button{
+    	background-color: white;
+    	color:black;
+    	margin-top: 10px;
+    }
+    .homea p{
+    	color:#ccc5c5;
+    }
+    #about{
+    	text-align: center;
+    }
+    .imagea{
+    	margin-left: -35px;
+    	margin-top:20px;
+    	margin-bottom: 60px;
+    }
+    .imageb{
+    	margin-left: -20px;
+    	margin-right: 30px;
+    	margin-top: -250px;
+    }
+    #about h3{
+    	width:300px;
+    	margin-left: -20px;
+    }
+    .abouta{
+    	margin:15px;
+    	font-size: 12px;
+    	padding:-12px;
+    }
+    .aboutc{
+    	margin-left: 80px;
+    	margin-bottom: 30px;
+    }
+    #about button{
+    	margin-left: 0px;
+    	margin-top: -20px;
+    }
+
+#product{
+    padding:0px;
+    margin-left: 10px;
+}
+#product h3{
+    width:300px;
+    margin-left: -40px;
+}
+#product img{
+    margin-left: -5px;
+}
+.productc{
+    margin-left:65px;
+}
+.producta{
+    display:flex;
+    flex-direction:column;
+}
+#product .producta1 {order:2;}
+#product .producta2 {order:1;}
+
+
+    #offer h3{
+    	font-size:23px;
+    	width:300px;
+    	margin-left: -25px;
+    	margin-top:-80px;
+    }
+    .offera{
+    	color:#5c5858;
+    	font-size: 17px;
+    }
+    .offerc{
+    	margin-left: 40px;
+    }
+    #offer button{
+    	margin-left: 30px;
+    }
+    #offer .row{
+    	margin-left: -30px;
+    }
+    #enquiry h3{
+    	text-align: center;
+    	font-size: 20px;
+    	width:300px;
+    	margin-left: -110px;  
+    }
+    #enquiry .row{
+    	margin-right: 0px;
+    	margin-left: -15px;
+    }
+    .enquiryc{
+    	margin-left: 0px;
+    }
+   
+    .enquirya{
+    	margin-left: -100px;
+	    padding: 77px;
+	    padding-bottom:0px;
+	    text-align: center; 
+    }
+    #enquiry img{
+    	margin-left:52px;
+    }
+    .contactb{
+    	font-size: 15px;
+    	padding-left: -20px;
+    	text-align: center;
+    	color:#a19c9c;
+    }
+    .contactb h3{
+    	font-size: 18px;
+    	padding-left: -20px;
+    	margin-top: -10px;
+    	text-align: center;
+    }
+    .contactb button{
+    	height:30px;
+    	width:100px;
+    	font-size: 10px;
+    	margin-top:20px;
+    }
+    .footer{
+    	margin-left: -5px;
+    	text-align: center;
+    }
+    .footer a{
+    	font-size: 12px;
+   		 padding: 2px;
+
+    }
+}
+
+
+
+
+
